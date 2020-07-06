@@ -6,10 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <com.jasjotsingh.customedittext.EditTextWithClear
+        android:id="@+id/my_edit_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:hint="@string/last_name"
+        android:inputType="textCapSentences"
+        android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
